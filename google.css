@@ -1,0 +1,175 @@
+#account {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.gmail {
+    padding: 0.4%;
+}
+
+.images {
+    padding: 0.4%;
+    margin-right: 1em;
+}
+
+.gmail:hover, .images:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.app {
+    opacity: 50%;
+}
+
+.app:hover {
+    opacity: 100%;
+}
+
+.connexion {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color:white;
+    padding: 7px;
+    padding-top: 0.4%;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    font-weight: bold;
+    margin-left: 1em;
+    border-radius: 2px;
+}
+
+.logo {
+    display: flex;
+    max-width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.barre {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 600px;
+    border: 1px;
+    border-radius: 10em;
+    border-color: gray;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.09);
+}
+
+.loupe {
+    padding-left: 1em;
+    max-width: 40px;
+    max-height: 40px;
+    opacity: 35%;
+}
+
+.search {
+    width: 90%;
+    padding: 0.3%;
+    margin-top: 30px;
+    margin: 8px 0;
+    border: none;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-family: Arial;
+    font-size: 15px;
+    color: gray;
+}
+
+.research {
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 11px;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+.luck {
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 11px;
+    border-radius: 4px;
+}
+
+.research:hover, .luck:hover {
+    border: 1px solid;
+    color: black;
+}
+
+.france {
+    position: fixed;
+    bottom: 40px;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+    margin-left: -10px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: -10px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+.left-footer {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    align-self: flex-end;
+    padding-left: 18px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.pub, .entreprise, .about, .work {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-footer {
+    display: flex;
+    width: 100%;
+    margin-left: -18px;
+    align-self: flex-end;
+    padding-right: 30px;
+    justify-content: flex-end;
+}
+
+.publication, .info, .confidentialité, .condition, .params {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pub:hover, .entreprise:hover, .about:hover, .work:hover, .publication:hover, .info:hover, .confidentialité:hover, .condition:hover, .params:hover {
+    text-decoration: underline;
+    color: gray;
+}
